@@ -1,7 +1,7 @@
 using MyExample
 using Test
 
- 
+
 #import MyExample
 #MyExample.my_f(2,1)
 
@@ -9,4 +9,5 @@ using Test
     # 2x + 3y
     @test my_f(2,1) == 7
     @test my_f(2,3) == 13
+    @test my_f(2,3) == 11
 end
