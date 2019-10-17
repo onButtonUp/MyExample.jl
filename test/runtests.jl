@@ -6,4 +6,4 @@
 #MyExample.my_f(2,1)
 
 using SafeTestsets
-@safetestset "My f tests" begin include("my_f_tests.jl") end
+@safetestset "My f tests" begin include("My_f_tests.jl") end
